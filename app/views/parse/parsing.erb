@@ -1,0 +1,9 @@
+<table width="400">
+    <% @dicview.each do |x| %>
+    <tr>
+        <td><%= x.dicnum %> </td>
+        <td> <%= x.title %> </td>
+        <td> <%= x.hanja %> </td>
+    </tr>
+    <% end %>
+</table>
